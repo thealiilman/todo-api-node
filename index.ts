@@ -1,10 +1,9 @@
 import express from 'express';
-import bodyParser from 'body-parser';
 
 const app = express();
 const PORT = 3000;
 
-app.use(bodyParser.json());
+app.use(express.json());
 
 app.get('/', (req: express.Request, res: express.Response) => {
   res.send({ message: 'Dia duit!' });
