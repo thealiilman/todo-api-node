@@ -1,0 +1,7 @@
+{
+  "name": "todo-api-node",
+  "version": "1.0.0",
+  "description": "A Node.js back-end I built to learn about the Node.js ecosystem",
+  "main": "index.js",
+  "license": "MIT"
+}
