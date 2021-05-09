@@ -1,12 +1,12 @@
-const express = require('express');
-const bodyParser = require('body-parser');
+import express from 'express';
+import bodyParser from 'body-parser';
 
 const app = express();
 const PORT = 3000;
 
 app.use(bodyParser.json());
 
-app.get('/', (req, res) => {
+app.get('/', (req: express.Request, res: express.Response) => {
   res.send({ message: 'Dia duit!' });
 });
 
